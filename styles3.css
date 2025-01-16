@@ -60,3 +60,29 @@ h3 {
   bottom: 0;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .form-container {
+    margin: 0 1rem;
+    padding: 1.5rem;
+  }
+
+  .navbar {
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-container {
+    margin: 0;
+    padding: 1rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+}
